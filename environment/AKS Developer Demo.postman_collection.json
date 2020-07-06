@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "ecf70708-a263-4f03-870d-efc5a35ee6d3",
+		"name": "AKS Developer Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Local Test - .NET Core",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/WeatherForecast",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"WeatherForecast"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AKS Cluster - .NET Core",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://13.86.7.86:80/WeatherForecast",
+					"protocol": "http",
+					"host": [
+						"13",
+						"86",
+						"7",
+						"86"
+					],
+					"port": "80",
+					"path": [
+						"WeatherForecast"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

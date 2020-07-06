@@ -6,21 +6,21 @@ First part of the dmeo is to showcase building and running the app using native 
     - CTRL+SHIFT+`
 2. Using VS Code Clone aks-developer-demo Repository
     - cd F:\repos
-    - git clone https://incyclesoftware@dev.azure.com/incyclesoftware/AKS%20Enterprise%20Accelerator/_git/aks-developer-demo aks-dev-demo
+    - git clone https://incyclesoftware@dev.azure.com/incyclesoftware/Docker_Container_Management_Accelerator/_git/DotNetCoreSample DotNetCoreSample
 3. Using VS Code
-    - Open 'aks-dev-demo' Folder of Weather Forecast application
+    - Open 'src' Folder of Weather Forecast application
     - Walk thru weather application
     - Briefly go over simple web api application
 4. Using VS Code - Open PowerShell / Cmd Terminal Window
     - CTRL+SHIFT+`
 5. VS Code Terminal - Build Application
-    - dotnet build weatherforecast/weather.csproj
+    - dotnet build src/weather.csproj
     - Validate application builds without errors
 6. Open Postman and the AKS Developer Demo Collection
     - Import 'AKS Deveoper Demo.postman_collection.json' from the 'environment' folder of the repo
     - Open 'Local Test - .NET Core'
 7. VS Code Terminal - Run Application
-   - dotnet run --project weatherforecast/weather.csproj --configuration debug --launch-profile Weather
+   - dotnet run --project src/weather.csproj --configuration debug --launch-profile Weather
 8.  In Postman - Run 'Local Test - .NET Core'
     -   Review JSON results
 9.  VS Code Terminal - Stop Application

@@ -2,7 +2,7 @@
 This repository contains all the materials needed for a consultant to execute/deliver a basic Azure Kubernetes demo that focus on a developer centric command line<br>
 approach, no DevOps, to containerization and K8s deployment of a simple .NET Core API Weather Forecast service.
 
-# Repository Sructure
+# Repository Structure
 ## **docs**
 Documenation for the presenter
 - Instructions for creating a Demo VM with all neccessary software for a consultant to successfully run the demo
